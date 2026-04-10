@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgrimTech CI/CD</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .card {
+            text-align: center;
+            padding: 60px 80px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+        .status {
+            display: inline-block;
+            background: #00c853;
+            color: white;
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        h1 { font-size: 48px; margin-bottom: 16px; }
+        p  { font-size: 18px; color: rgba(255,255,255,0.6); margin-bottom: 10px; }
+        .tag {
+            margin-top: 30px;
+            font-size: 13px;
+            color: rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="status">✅ DEPLOYED</div>
+        <h1>AgrimTech</h1>
+        <p>CI/CD Pipeline is Live!</p>
+        <p>Jenkins → Docker → Container</p>
+        <div class="tag">Auto-deployed via Jenkins • test-cicd2</div>
+    </div>
+</body>
+</html>
